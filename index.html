@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Photo Gallery</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="nav-container">
+
+            <a href="#home" class="nav-logo">Photo Gallery</a>
+
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#about" class="nav-link">About</a>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header" id="home">
+        <div class="container">
+            <p class="subtitle">DISCOVER THE BEAUTY OF NATURE</p>
+
+            <h1>My Photo Gallery</h1>
+
+            <p class="description">
+                Exploring modern layouts using CSS Grid.
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- Gallery Section -->
+        <section class="gallery-section" id="gallery">
+
+            <div class="section-heading">
+                <div>
+                    <h2>Explore the Gallery</h2>
+                    <p>Discover beautiful moments in nature.</p>
+                </div>
+
+                <span class="photo-count">06 Photos</span>
+            </div>
+
+            <!-- CSS Grid -->
+            <div class="gallery">
+
+                <!-- Featured Photo -->
+                <article class="photo photo-featured">
+                    <img
+                        src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=85"
+                        alt="Mountain lake surrounded by green hills"
+                    >
+
+                    <div class="photo-overlay">
+                        <span>FEATURED</span>
+                        <h3>Nature Escapes</h3>
+                    </div>
+                </article>
+
+                <!-- Adventure -->
+                <article class="photo">
+                    <img
+                        src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=85"
+                        alt="Beautiful landscape for an adventure"
+                        loading="lazy"
+                    >
+
+                    <div class="photo-overlay">
+                        <h3>Adventure</h3>
+                    </div>
+                </article>
+
+                <!-- Ocean -->
+                <article class="photo">
+                    <img
+                        src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=85"
+                        alt="Ocean waves"
+                        loading="lazy"
+                    >
+
+                    <div class="photo-overlay">
+                        <h3>Ocean</h3>
+                    </div>
+                </article>
+
+                <!-- Forest: local image -->
+                <article class="photo">
+                    <img
+                        src="vecteezy_nature-background-nature-wallpaper-lush-green-meadow-with_73608997.jpg"
+                        alt="Green meadow and trees in a forest"
+                        loading="lazy"
+                    >
+
+                    <div class="photo-overlay">
+                        <h3>Forest</h3>
+                    </div>
+                </article>
+
+                <!-- Mountains -->
+                <article class="photo">
+                    <img
+                        src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=85"
+                        alt="Mountain scenery"
+                        loading="lazy"
+                    >
+
+                    <div class="photo-overlay">
+                        <h3>Mountains</h3>
+                    </div>
+                </article>
+
+                <!-- Golden Hour -->
+                <article class="photo">
+                    <img
+                        src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=800&q=85"
+                        alt="Golden sunlight over a landscape"
+                        loading="lazy"
+                    >
+
+                    <div class="photo-overlay">
+                        <h3>Golden Hour</h3>
+                    </div>
+                </article>
+
+            </div>
+
+            
+<!-- Explore Gallery Button -->
+<div class="button-container">
+    <a href="#gallery" class="gallery-button">
+        Explore Gallery <span aria-hidden="true">→</span>
+    </a>
+</div>
+
+
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <p class="subtitle">OUR STORY</p>
+
+            <h2>About Our Gallery</h2>
+
+            <p>
+                Welcome to our photo gallery, a collection of beautiful
+                landscapes, oceans, forests, mountains, and golden-hour
+                moments. This project demonstrates HTML5, CSS Grid,
+                responsive design, transitions, and hover effects.
+            </p>
+
+            <a href="#home" class="back-to-top">
+                Back to Home ↑
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Built with HTML5 and CSS3 Grid</p>
+        <p>Navigation • Responsive Design • CSS Transitions</p>
+    </footer>
+
+</body>
+</html>
